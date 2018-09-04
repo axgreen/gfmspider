@@ -1,0 +1,347 @@
+{
+    "extractors": {}, 
+    "id": "b596-43f7-bce7", 
+    "name": "Fundraiser by John Woodard Sean Wurtzel", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "4190-4553-954e", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "58e0-4eb5-b0da", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "28b0-437d-a15a": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "009f-4f61-9c37", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6e04-4fd1-9705", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "8153-4576-8c93": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ffaa-4caa-811b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5b60-4427-a81b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "90a6-40d9-8dcb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e5f9-4d4e-861d", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "cf91-4bca-acf8", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "6980-4396-99ba": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0e55-4ae8-8c8a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2af8-4d29-86f5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "8778-4aa8-afe6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9b0b-45c8-972c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1d46-457e-9aad", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "e332-4eb0-b044": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4bab-4ae2-a91e", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "482b-418c-b01c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "033f-47d6-a10c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2fd9-492a-ba75", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a3ec-4e92-9182", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "4366-4d4b-b218": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6657-4730-acf5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5d69-4926-be3c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "bd55-4ae2-8bba": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "cc08-4d1a-99f5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0a1d-440e-ad16", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "cc31-4d4a-82b4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3d6e-473f-a1f6", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "288f-48d1-a3bb", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "b0bb-4dba-8bde": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "40b6-4add-8270", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a290-4f76-a8ea", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "1e46-40bd-9114": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8b84-4b90-9348", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7b22-4351-815a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".js-co-orbit-container > .is-active > .mb20 > .co-info > .co-details > strong"
+                    ], 
+                    "container_id": "4190-4553-954e", 
+                    "data": {
+                        "4ab6-42e6-812c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4b3c-4bda-ae3c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e591-4a6e-aebf", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".js-co-orbit-container > .is-active > .mb20 > .co-info > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" js-co-orbit-container \")]/*[contains(concat(\" \", @class, \" \"), \" is-active \")]/*[contains(concat(\" \", @class, \" \"), \" mb20 \")]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "58e0-4eb5-b0da", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/seanwurtzel", 
+    "version": "0.13.1"
+}

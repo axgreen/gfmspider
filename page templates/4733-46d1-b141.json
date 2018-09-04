@@ -1,0 +1,407 @@
+{
+    "extractors": {}, 
+    "id": "4733-46d1-b141", 
+    "name": "lucas harrison", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "740e-4551-a450", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "a77f-47eb-9c9b", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "0126-45b7-9fc0": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "7b17-4835-b194", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "165e-4d6c-915f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".heart-18957912 > .fave-num-short > .roundedNum"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "4322-4b55-a964": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "10ad-4be5-9250", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "31e3-4da6-9e8d", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".heart-18957912 > .fave-num-short > .roundedNum", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" heart-18957912 \")]/*[contains(concat(\" \", @class, \" \"), \" fave-num-short \")]/*[contains(concat(\" \", @class, \" \"), \" roundedNum \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "0a20-4cb1-9b05": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "dc54-4daa-a101", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e585-44b5-89f3", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "e7e6-4387-86c4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7390-4222-be08", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "ce03-4b1b-8999", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "6162-42b0-aee0": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "82aa-4319-90dd", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "638e-483d-8397", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "86a1-41eb-8793": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e3d3-4a1c-a0a0", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "aca7-4a8e-9b68", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "eac2-4611-be0d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5a6f-436e-8bfd", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "d871-47d9-89c7", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".badge"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "84f2-4a83-b691": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e45f-4f5c-aeb3", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3e0b-42e7-9249", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".badge", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" badge \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "6ec0-46bb-b3ce": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "f5de-4b64-8d7b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "d43d-4a14-811f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "fabb-41eb-b845": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5c88-4afa-8376", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3c25-452e-a591", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".icon-link:nth-child(3)"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "f74c-4571-bb79": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "f38a-4364-bfaa", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1bd6-46a3-88c5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".icon-link:nth-child(3)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[3][contains(concat(\" \", @class, \" \"), \" icon-link \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".icon-link:nth-child(3)"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "43d1-48da-9928": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6fbb-49b7-ad8f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "18d8-4c43-b724", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".icon-link:nth-child(3)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[3][contains(concat(\" \", @class, \" \"), \" icon-link \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "9fd9-404a-a2dc": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5b94-40a6-a141", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "154a-4862-b1bf", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".created-date"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "2afd-4e67-91a4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2316-4ffa-8b97", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3502-4da4-9b22", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "span.text-small"
+                    ], 
+                    "container_id": "740e-4551-a450", 
+                    "data": {
+                        "f3e4-45a3-9756": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5c8a-4489-9fbc", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e38c-4447-bcff", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "span.text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//span[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "a77f-47eb-9c9b", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/lucas-harrison-picu-recovery", 
+    "version": "0.13.1"
+}

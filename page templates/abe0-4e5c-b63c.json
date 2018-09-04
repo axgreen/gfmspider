@@ -1,0 +1,353 @@
+{
+    "extractors": {}, 
+    "id": "abe0-4e5c-b63c", 
+    "name": "Fundraiser for Darrell Mielke by Shannon Rempe", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "433d-4cfe-a028", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "d3dc-44df-837b", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "c2cf-4985-87a9": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "1ce1-4068-a402", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "dc16-4a96-9117", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".heart-31006856 > .fave-num-short > .roundedNum"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "f7b6-4da6-9d48": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "dd4c-4e37-91ff", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "538a-44eb-b41d", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".heart-31006856 > .fave-num-short > .roundedNum", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" heart-31006856 \")]/*[contains(concat(\" \", @class, \" \"), \" fave-num-short \")]/*[contains(concat(\" \", @class, \" \"), \" roundedNum \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "5892-4f5d-864d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6515-4efa-bcd7", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "438b-4844-8b8e", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "cf59-4202-a1a9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b8bd-4ac5-bff5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8d63-4537-b267", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "e7dd-4743-b842": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f767-448d-9e35", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "fa09-49ec-985c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "935b-4588-9256": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9a1b-41e5-901c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "fdec-4fbb-a025", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "6646-40b3-bc09": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7af0-44f8-a585", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "fa7d-4713-9533", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "c0c9-4d5a-9b5b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f200-4616-97be", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "666b-45a9-acc7", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "cb72-4e9c-9549": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9de0-4dd6-80b1", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e423-4a8f-8ec7", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "0e50-4660-8ffc": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e191-4919-9ffd", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "af35-4dd9-8b17", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" location-name \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "3e99-4147-a1c4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "945d-4884-8c15", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "d725-4477-8ce6", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "2d99-4d00-8c2b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "88f2-4c63-bc5f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "84d1-4b60-adee", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".team-member-contain:nth-child(1) > .column > .team-member-text-name"
+                    ], 
+                    "container_id": "433d-4cfe-a028", 
+                    "data": {
+                        "8c64-4be1-b3a5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "213f-40e9-a6dc", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c600-48bb-93e0", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".team-member-contain:nth-child(1) > .column > .team-member-text-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" team-member-contain \")]/*[contains(concat(\" \", @class, \" \"), \" column \")]/*[contains(concat(\" \", @class, \" \"), \" team-member-text-name \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "d3dc-44df-837b", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/medical-fund-for-derek-mielke", 
+    "version": "0.13.1"
+}

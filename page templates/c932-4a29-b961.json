@@ -1,0 +1,132 @@
+{
+    "extractors": {}, 
+    "id": "c932-4a29-b961", 
+    "name": "results page", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "ae66-46c8-9438", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "840f-47c8-b134", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(5)"
+                    ], 
+                    "container_id": "ae66-46c8-9438", 
+                    "data": {
+                        "c534-482a-a212": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "9e25-4cca-8cb9", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d418-46aa-a8f3", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(5)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[5]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "ae66-46c8-9438", 
+                    "data": {
+                        "6111-43fc-b793": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1804-4912-8cf7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7245-48eb-a2cd", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "h1", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h2"
+                    ], 
+                    "container_id": "ae66-46c8-9438", 
+                    "data": {
+                        "71e6-4e04-a25c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "61c2-4c22-8357", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "a98a-46b5-91ed", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "h2", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//h2"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".cell:nth-child(1) > .react-campaign-tile > .react-campaign-tile-details > div:nth-child(2) > a > .clamp"
+                    ], 
+                    "container_id": "ae66-46c8-9438", 
+                    "data": {
+                        "2cbe-467f-8542": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9ba9-46af-9eac", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3c81-4342-93ca", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".cell:nth-child(1) > .react-campaign-tile > .react-campaign-tile-details > div:nth-child(2) > a > .clamp", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" cell \")]/*[contains(concat(\" \", @class, \" \"), \" react-campaign-tile \")]/*[contains(concat(\" \", @class, \" \"), \" react-campaign-tile-details \")]/div[2]/a/*[contains(concat(\" \", @class, \" \"), \" clamp \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "840f-47c8-b134", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/mvc.php?route=category&term=medical&country=GB", 
+    "version": "0.13.1"
+}

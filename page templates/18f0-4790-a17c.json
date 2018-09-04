@@ -1,0 +1,382 @@
+{
+    "extractors": {}, 
+    "id": "18f0-4790-a17c", 
+    "name": "Fundraiser for Jeffrey Lucas by Jaybird Marion", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "d8d3-4fb5-98ff", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "f874-4707-927e", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "9612-4067-8d19": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "bf28-4386-ad8c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "f57e-4b7b-b892", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".heart-31000810 > .fave-num-short > .roundedNum"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "74d6-4b9f-95f2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f14e-440a-af83", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4354-49e9-ad84", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".heart-31000810 > .fave-num-short > .roundedNum", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" heart-31000810 \")]/*[contains(concat(\" \", @class, \" \"), \" fave-num-short \")]/*[contains(concat(\" \", @class, \" \"), \" roundedNum \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "3da4-4179-83af": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "55ca-40fb-89f5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "d291-46c9-9b76", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "7c6a-4d71-adc7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a511-454b-9ca8", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c437-4212-92e8", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "3b76-4f37-bb3c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2a30-4c75-b558", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3fb4-4499-a729", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "da8e-450d-8fb6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c77f-438b-a76c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7b9e-4524-a1df", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "4185-4971-9def": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "02d5-4377-a3f7", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3c1a-4c8d-abcc", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".badge"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "fad2-4015-9d85": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9290-43da-888a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8c78-4be4-aa2a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".badge", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" badge \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .show-for-large > .created-date"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "3189-4205-96dc": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f380-439c-9dc8", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7a0a-4243-852b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .show-for-large > .created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "cb90-4a3b-9850": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7024-45fa-a1a3", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b57a-4a59-abde", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "680d-410e-8cc1": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "9429-43db-a120", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c2c5-4abc-a525", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" location-name \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "5d79-4b13-8586": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "24b7-4a08-a49d", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "78f5-45e1-9f47", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" location-name \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "3c37-45a0-a438": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "28a0-4e0c-a7ab", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "bfc2-43d3-baac", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(1) > .co-details > strong"
+                    ], 
+                    "container_id": "d8d3-4fb5-98ff", 
+                    "data": {
+                        "9637-4b6f-8134": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "27c1-4bd0-89eb", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6a73-4d90-af91", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(1) > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "f874-4707-927e", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/5r4nsqw", 
+    "version": "0.13.1"
+}

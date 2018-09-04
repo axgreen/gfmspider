@@ -1,0 +1,332 @@
+{
+    "extractors": {}, 
+    "id": "1b7a-49c8-b1a0", 
+    "name": "Fundraiser by Lyra Pramuk Lyras Gender Affirmat", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "7f34-42ef-a342", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "b8c3-436f-873a", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "c777-49a9-80dc": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "380c-4838-bc0c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5c8f-4568-8a73", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".heart-30178800 > .fave-num-short > .roundedNum"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "4bc5-48cd-869e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "faca-479d-8711", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "d67b-4f34-89f9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".heart-30178800 > .fave-num-short > .roundedNum", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" heart-30178800 \")]/*[contains(concat(\" \", @class, \" \"), \" fave-num-short \")]/*[contains(concat(\" \", @class, \" \"), \" roundedNum \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#js-open-media-viewer"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "4ddd-4677-a345": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "026c-4889-8a30", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a140-4b06-bab2", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#js-open-media-viewer", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"js-open-media-viewer\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "6519-40be-984e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ac6a-4888-a8ae", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5059-4482-8a08", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "a4c8-4943-9752": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f4db-458a-9aa1", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "ed4e-4e12-9861", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "b43c-471a-a6c4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6e49-4185-92a3", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8ad3-46ef-84dd", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "d1c9-41a8-ae57": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e873-456b-a063", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5eae-48da-8b4a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "1343-4583-9291": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "df41-4809-aabf", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b428-4377-97c5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .show-for-large > .created-date"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "f86c-4190-8ad3": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "69ec-4ed5-9330", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "f164-4b99-8e8b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .show-for-large > .created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".badge"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "ffda-41e5-a732": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "804c-47f5-8e45", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "11a8-4d4f-b7ae", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".badge", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" badge \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "1c99-4b2b-b8e8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e8de-4779-a3d0", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2c49-46a5-8f3f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(1) > .co-details > strong"
+                    ], 
+                    "container_id": "7f34-42ef-a342", 
+                    "data": {
+                        "6763-48c8-bc73": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "34f3-4a7c-93bb", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "df65-4c50-a3db", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(1) > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "b8c3-436f-873a", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/help-lyra-transform", 
+    "version": "0.13.1"
+}

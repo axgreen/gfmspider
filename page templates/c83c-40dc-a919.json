@@ -1,0 +1,372 @@
+{
+    "extractors": {}, 
+    "id": "c83c-40dc-a919", 
+    "name": "Fundraiser for Vaghinak Khachatryan by Make E", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "6f19-490b-923e", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "1fcd-47ef-b116", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".heart-25507438 > .fave-num-short > .roundedNum"
+                    ], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "712a-478b-8d1b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c87d-4637-8f6a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "64e5-4722-961b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "5291-48ac-a2a5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b3c4-45c7-ac08", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b2fd-4de9-b0cd", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "b6bd-4eed-b3ca": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "98ce-4a4d-8d92", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2185-4c99-aca2", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "84f2-4204-8a2a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3818-4cd7-8201", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "ba53-4096-afc1", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "68b0-4d23-89f9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6581-418b-b75c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "ba77-43f1-920b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "bca6-4bdc-b073": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "fc48-4e93-88f5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "701d-420f-a6df", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "da8c-4aed-aece": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "7040-4098-b123", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1a0e-4e74-ab05", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "b6a5-411e-8d54": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "df12-4b30-9887", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "df6f-4659-a42f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "6226-488d-8c41": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e789-4213-b01a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "19f3-4397-aeee", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "7d22-4709-8d2b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8cbf-4031-8fb7", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "27fd-4393-88dd", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "f6a1-45c9-a317": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "cccf-4c24-b25a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a002-4144-bc1f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "8769-41c3-85a5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "267e-4d1e-9098", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e3ac-4f00-b8a9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".badge"
+                    ], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "4b8b-4105-a1da": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0b97-482f-983a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0fde-4b1e-b21f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".badge", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" badge \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "6f19-490b-923e", 
+                    "data": {
+                        "df0f-4d38-a686": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "5646-4579-a46d", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "56fa-499f-9bf8", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "1fcd-47ef-b116", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/edmond91", 
+    "version": "0.13.1"
+}

@@ -1,0 +1,432 @@
+{
+    "extractors": {}, 
+    "id": "03c7-4089-a913", 
+    "name": "Fundraiser by Edwin Cruz Melissa Guadalupe Hern", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "ab90-4fbd-8710", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "b05d-4975-a577", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "fca8-457e-bd0f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "80f9-42d9-b1c4", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "f87f-456f-811f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "73b0-4667-8fe2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4f4e-4c4a-b222", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c7f3-422f-bde9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "53c8-4a7a-822e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b361-4f07-895f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "36cd-41c4-9b9f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "25ea-4d47-9350": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8120-418f-8344", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "067b-4d65-940c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".static-btn-contain > .is-disabled"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "42df-453d-be0b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "dbe9-4e62-b755", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b9ed-4697-b5a2", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".static-btn-contain > .is-disabled", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" static-btn-contain \")]/*[contains(concat(\" \", @class, \" \"), \" is-disabled \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".heart-18080338 > .fave-num-short > .roundedNum"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "8997-42be-99fe": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "95b3-4c23-9091", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2141-47cd-bfc9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".heart-18080338 > .fave-num-short > .roundedNum", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" heart-18080338 \")]/*[contains(concat(\" \", @class, \" \"), \" fave-num-short \")]/*[contains(concat(\" \", @class, \" \"), \" roundedNum \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".badge"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "f08c-4cc7-a565": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ef48-4a15-97e3", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6366-4dc4-93f5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".badge", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" badge \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "0132-4a16-a126": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "23e5-4115-a84b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "fcf8-4b95-82c1", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".created-date"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "442c-4b8d-9b12": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3193-48ef-a5e6", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8979-40a2-abf3", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(5) > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "ddc7-436c-ad29": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "dd73-4ce3-b1a8", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "22e6-4e03-aab5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(5) > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(5) > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "a26a-40bc-8ed7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "032e-41ca-8ab9", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a3c5-4e12-82d9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(5) > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "span.text-small"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "88d0-4c80-8221": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b550-4d20-a325", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2ac2-48c0-be5a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "span.text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//span[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".js-location-link"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "fd92-4bf8-b446": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "25df-4d37-a6c7", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "18aa-4ba1-867d", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".js-location-link", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" js-location-link \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".js-location-link"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "36b5-4938-bbf4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "96a3-4b26-a258", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1782-4b3c-9619", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".js-location-link", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" js-location-link \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-btns-contain:nth-child(6) > div:nth-child(4) > .js-share-count-text"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "6e7f-4c7b-8850": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "d30f-4166-aa1c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e046-4033-96fb", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-btns-contain:nth-child(6) > div:nth-child(4) > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[6][contains(concat(\" \", @class, \" \"), \" share-btns-contain \")]/div[4]/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "ab90-4fbd-8710", 
+                    "data": {
+                        "92b4-41e7-8f23": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "6fb0-43a2-80f4", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "27fb-4fb7-9a5f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "b05d-4975-a577", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/melissa-guadalupe-hernandez-funeral", 
+    "version": "0.13.1"
+}

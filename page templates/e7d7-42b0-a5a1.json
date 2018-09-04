@@ -1,0 +1,278 @@
+{
+    "extractors": {}, 
+    "id": "e7d7-42b0-a5a1", 
+    "name": "Fundraiser by Philip Lapple Veteran Relocating", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "58b0-4dea-8c7c", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "f742-4951-a3b0", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "c576-4c96-a79a": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "623c-4d9a-a3fc", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "28e4-4221-9105", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "a4eb-4f08-af9e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c926-45cb-ae2d", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b4e7-452f-ab9c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal"
+                    ], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "2781-41da-893c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0534-434e-8f98", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5f7f-4776-83bb", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "cf64-462e-b5f3": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2c41-4070-af74", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "fe2b-4ec1-9f20", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .show-for-large > .created-date"
+                    ], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "8810-4e58-b5f5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1b7e-439e-9087", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0b9d-4b88-9c33", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .show-for-large > .created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small"
+                    ], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "b11d-48e2-be56": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "d8ef-469a-a497", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6a98-484c-8340", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name"
+                    ], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "e5d2-4ae2-b8d0": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "bbb8-4217-a2cd", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "d8f6-4c42-8727", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" location-name \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "daad-4ae8-9b52": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "2ccb-4be9-97fe", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "9df9-4906-b099", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "9574-41ab-bf5e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3b75-440d-aed5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "f4e7-47a3-b100", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(1) > .co-details > strong"
+                    ], 
+                    "container_id": "58b0-4dea-8c7c", 
+                    "data": {
+                        "edeb-4519-9168": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "414c-40ee-a065", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7a73-4185-90e0", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(1) > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "f742-4951-a3b0", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/veteran-relocating-to-the-usa", 
+    "version": "0.13.1"
+}

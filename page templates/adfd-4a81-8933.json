@@ -1,0 +1,257 @@
+{
+    "extractors": {}, 
+    "id": "adfd-4a81-8933", 
+    "name": "Fundraiser by Gasparyan Serob Serob Gasparyan", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "1c73-4c67-b11d", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "d468-4041-9d0b", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "1c73-4c67-b11d", 
+                    "data": {
+                        "9749-4270-8355": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "1ddf-4b7e-beab", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6934-4db5-8549", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "1c73-4c67-b11d", 
+                    "data": {
+                        "306f-4712-9440": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7fc8-4515-89ba", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "29e2-4d1a-9019", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "1c73-4c67-b11d", 
+                    "data": {
+                        "9f34-4453-88be": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8a4c-475d-8997", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0dbe-4107-b2cc", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .show-for-large > .created-date"
+                    ], 
+                    "container_id": "1c73-4c67-b11d", 
+                    "data": {
+                        "ad82-433a-889c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "d38c-4b29-8562", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4bca-41a3-98e4", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .show-for-large > .created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".fs-12-5"
+                    ], 
+                    "container_id": "1c73-4c67-b11d", 
+                    "data": {
+                        "194b-4fb2-ac64": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "05c6-4f63-aa0a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "9226-429d-b93e", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".fs-12-5", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" fs-12-5 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small"
+                    ], 
+                    "container_id": "1c73-4c67-b11d", 
+                    "data": {
+                        "e10c-4f5e-80f9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5bdf-431b-a36e", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c0d0-46a0-8291", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name"
+                    ], 
+                    "container_id": "1c73-4c67-b11d", 
+                    "data": {
+                        "533e-4185-b0ce": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9e18-4105-8db8", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0f32-4559-abb8", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" location-name \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story > strong"
+                    ], 
+                    "container_id": "1c73-4c67-b11d", 
+                    "data": {
+                        "ba93-40e6-b901": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e24e-48fa-9f3f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1794-4c9b-a17e", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(1) > .co-details > strong"
+                    ], 
+                    "container_id": "1c73-4c67-b11d", 
+                    "data": {
+                        "b761-4d1a-b944": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1808-49db-b84f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4bb8-4453-a18c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(1) > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "d468-4041-9d0b", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/serob-gasparyan", 
+    "version": "0.13.1"
+}

@@ -1,0 +1,376 @@
+{
+    "extractors": {}, 
+    "id": "b281-4f72-8927", 
+    "name": "Fundraiser by Chris Merritt Chris Career Reboot", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "7c70-4493-b484", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7031-485c-bd1f", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "8153-4de4-a4c7": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "4ef9-4dcc-9537", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2bce-4670-ad4c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "b81d-4543-95a2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5ab7-4aab-baf3", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1e25-4bd2-804e", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "c886-4584-bc60": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7d29-4bad-bb2c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "dc0e-48d3-ae22", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "ebac-4288-831d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1feb-4bb9-ab82", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2536-4c4d-ba61", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "1a42-4c67-91ba": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1745-4e12-a137", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c12b-4abb-b6a9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "c5aa-4bdb-aa65": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "cf8c-4930-8586", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e692-4405-937c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".badge"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "413d-46bd-acc9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1606-4515-a7a5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b3a1-4aa8-be67", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".badge", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" badge \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "2b21-441b-a4df": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4c5b-4f00-ac85", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6d6a-4af3-ba4b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "a6af-41da-9d40": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b606-4a62-8a80", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3ff5-43c3-a5fb", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "2f1c-4a41-a746": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3a1b-45e5-8faa", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2d29-4ed7-a4ea", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(1) > .co-details > strong"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "8259-4d23-a143": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7441-499e-855e", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "cf63-432a-b3c7", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(1) > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "224a-48da-85f3": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6eb4-4ffe-a9ff", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "ca0b-4c93-94c5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "a51d-4af2-a840": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a7dd-4cdb-8680", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "00fa-4210-906b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status"
+                    ], 
+                    "container_id": "7c70-4493-b484", 
+                    "data": {
+                        "58ac-4603-a682": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9eb0-4ae0-9538", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "15ae-421a-af05", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7031-485c-bd1f", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/rgh4zg", 
+    "version": "0.13.1"
+}

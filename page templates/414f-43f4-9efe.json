@@ -1,0 +1,326 @@
+{
+    "extractors": {}, 
+    "id": "414f-43f4-9efe", 
+    "name": "Fundraiser by Natalia Paredes Acua Week Missio", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "d5bf-469b-bc86", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "a54d-4a8a-918e", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "7152-4bb1-ba33": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "9cf3-4c07-aa8c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "ea69-4fcb-9b4f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "6298-446e-b140": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1964-4c30-a102", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "f3f1-4568-8c62", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "5e7a-4f01-a6d2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3cb2-42a5-abd5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "91f9-4d49-9416", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "8523-4eca-9fb5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2d3a-4391-b664", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0377-4f5a-b63b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "715e-4b39-8593": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8eba-4dbe-9442", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "294e-4b37-830f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "43a8-4e63-8219": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "54f4-4247-bf5a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "49c6-422c-8ada", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "e069-45bc-94c1": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e706-4d35-926a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0427-44a4-8144", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .show-for-large > .created-date"
+                    ], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "9016-4a42-b32a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "180e-4142-9260", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3f61-4dca-ab63", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .show-for-large > .created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small"
+                    ], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "ee4b-4954-9a71": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "22ef-4d67-8967", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "cc9f-48c2-91bb", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name"
+                    ], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "0248-41fc-aa38": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2901-4abb-84f0", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "34e2-4fd2-9ba9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" location-name \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "056e-419b-8a2e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9993-47e2-b554", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2bef-4b05-99f5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "d5bf-469b-bc86", 
+                    "data": {
+                        "0003-41a7-b25d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "109f-44af-8a70", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a751-4690-a460", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "a54d-4a8a-918e", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/1-week-mission-trip-to-moldova", 
+    "version": "0.13.1"
+}

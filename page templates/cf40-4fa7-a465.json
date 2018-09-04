@@ -1,0 +1,270 @@
+{
+    "extractors": {}, 
+    "id": "cf40-4fa7-a465", 
+    "name": "Fundraiser by Tay Tom Nguyen building elementar", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "bdbf-4ad0-853e", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "2ac3-4af8-8360", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "d454-4915-8d9b": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "2882-4dba-b496", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6f3a-46ba-a9c9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "de1c-4231-9995": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a319-49fb-8f7c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6a7f-48a4-87a6", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "33d7-4546-8270": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "16e7-439d-8d2c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "9993-44f0-8f6a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "4e0c-40b4-b724": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "96ea-4e34-8c7b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8ce1-4f67-869b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "530c-4826-bbcd": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "4475-490f-bd2b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "42b2-4d3d-953f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "51a7-4b49-b65e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f9d9-4a44-865a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "ca7f-4849-9d6d", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "8fcf-4e0e-8287": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8b27-47a9-84f3", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1b5c-4edc-b778", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "e695-4cb0-8cd8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4d3a-4ad8-b433", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "28b6-4782-8636", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "7fd5-46bc-a567": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "da00-4c07-9980", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4925-4561-b224", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "bdbf-4ad0-853e", 
+                    "data": {
+                        "1aa0-4bbc-83f1": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1b24-497a-b073", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4503-41fa-8cef", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "2ac3-4af8-8360", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/building-elementary-school", 
+    "version": "0.13.1"
+}

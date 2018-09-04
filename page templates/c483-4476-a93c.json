@@ -1,0 +1,378 @@
+{
+    "extractors": {}, 
+    "id": "c483-4476-a93c", 
+    "name": "Fundraiser for Kiante Powell by Ishmale Powell", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "2f91-401a-b2fa", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "4157-4afc-8b62", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "11ee-4181-a228": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "199e-407d-98fa", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3124-4886-a5de", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "e474-4087-994f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b68c-4978-9650", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1cfa-4acb-9c42", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "781b-4805-91c3": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "91f8-408a-9832", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "cfa4-42a2-9c68", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "4b5e-4e8a-9e7b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8699-4ded-bcc5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4cfc-477a-ad81", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "15fd-4040-b709": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c63f-4e6e-b149", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "474a-467e-bc0a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "1be1-4cbc-8235": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "bfd0-428c-ab5a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "49b0-4687-b015", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "0d73-40b6-a6dc": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "68ee-4b4e-a565", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "06a9-4a3b-bde6", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "22ed-4c11-8602": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c237-4874-bfed", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5eb6-4f5e-b9c0", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .show-for-large > .created-date"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "e963-43ac-8d14": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9adc-4d6e-a9e1", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a2b9-4bea-b7ed", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .show-for-large > .created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "39a5-476b-9317": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b7df-4614-add1", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "36e4-4f42-97b0", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "c3a4-4b04-85cc": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6976-49bd-962d", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a865-4f4f-a85c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "b90b-4fa6-970c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6932-41c3-a0cc", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "57bc-428b-920c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" location-name \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "1b24-4b36-8a86": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0033-40b0-9649", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2f85-43cb-9eaf", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(1) > .co-details > strong"
+                    ], 
+                    "container_id": "2f91-401a-b2fa", 
+                    "data": {
+                        "aa4f-4c76-af15": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "94b0-43df-9a26", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0938-48a0-a1ed", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(1) > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "4157-4afc-8b62", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/15-yr-old-grad-college-tuition", 
+    "version": "0.13.1"
+}

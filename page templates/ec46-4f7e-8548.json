@@ -1,0 +1,355 @@
+{
+    "extractors": {}, 
+    "id": "ec46-4f7e-8548", 
+    "name": "Fundraiser by Michelle Wiel Benno in Not", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "ceee-4c51-92b9", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "c005-4f77-ad4d", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "9452-4ac2-8123": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "626e-4235-8b39", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4c5c-4ab7-8a2a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "7631-4fdf-a2e8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a9d5-4196-bf28", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4942-4bc2-be18", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "138c-4682-9683": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7737-4ecd-b137", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6ba6-4b1e-a5f0", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "0b5c-48dd-af35": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "29fb-4771-8db3", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1267-4d90-acf7", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "6839-46bb-94e3": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "176c-46b5-bc08", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6673-4d49-9fed", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "a0d6-4d8d-ae3f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1de8-477f-8332", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7dec-4d8b-9917", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .show-for-large > .created-date"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "6d6e-4567-844d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "d107-4e2a-858c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8048-4758-9ebc", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .show-for-large > .created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "d4a9-4a8f-9aeb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "18e3-4126-8016", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b082-4ab9-844d", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "0047-4054-bb03": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0e18-4b65-bdc7", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b563-4905-8051", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" location-name \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "a676-44b7-bcbf": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b0e4-4b56-b770", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1baf-4a55-9c4b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "e5a2-4889-afb6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3c9a-481f-a2a7", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1eca-4b03-a3f1", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "5c46-4cdd-a82f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1dff-4484-a6e3", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "52d5-4e81-aa8f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "ceee-4c51-92b9", 
+                    "data": {
+                        "7460-4576-bfe4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "887e-48e3-bfa6", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "f952-481e-9ee4", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "c005-4f77-ad4d", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/benno-in-not", 
+    "version": "0.13.1"
+}

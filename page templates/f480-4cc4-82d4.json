@@ -1,0 +1,407 @@
+{
+    "extractors": {}, 
+    "id": "f480-4cc4-82d4", 
+    "name": "Fundraiser by Kevin-Vanessa Gore Funeral expens", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "4953-4233-87e6", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "90a3-41d3-9e45", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "57e5-4441-99aa": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "61b4-48ac-a253", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b68c-4c81-b78a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".heart-16725540 > .fave-num-short > .roundedNum"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "d5e6-42cf-9250": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8d38-48b4-98b5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1ed3-4cbc-a57a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".heart-16725540 > .fave-num-short > .roundedNum", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" heart-16725540 \")]/*[contains(concat(\" \", @class, \" \"), \" fave-num-short \")]/*[contains(concat(\" \", @class, \" \"), \" roundedNum \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "b8d6-4bbd-9f54": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c1a4-4e35-ae5b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6db3-441f-8ada", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "8bec-4fbe-bece": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "fe0f-4d1e-8640", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a04e-4589-8a55", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "51e9-4bb5-a9bf": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "59f4-435c-93dd", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6382-4d1a-b4ef", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "2c08-4c01-af9a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "67ae-4753-9632", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "aee6-416f-927c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "daff-4cb2-8162": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e1b1-4165-a5d7", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "be6d-4fae-a318", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".badge"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "cfd9-43b7-9fb6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "29aa-4f89-ade2", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "733b-4c07-ba66", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".badge", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" badge \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "3fef-4105-8783": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "16ff-4665-9175", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "388c-4f5a-a0c3", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "fd17-4f41-978e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "174e-4729-aeda", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "489b-4af5-a981", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .icon-link"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "4de9-46fe-a5e7": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "5d73-493c-8df0", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7725-445e-b5a5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .icon-link", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" icon-link \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .icon-link"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "a419-4c54-a4b0": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "edbe-47c4-bacd", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1786-4c5c-ae08", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .icon-link", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" icon-link \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "03ef-467f-aa41": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "976c-432d-bc5b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4714-4d6f-8d20", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".created-date"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "d7d0-4b87-86a7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3d38-417c-85db", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e6e7-4b15-a7fa", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "span.text-small"
+                    ], 
+                    "container_id": "4953-4233-87e6", 
+                    "data": {
+                        "c3e1-4733-bac9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3cd0-462b-86bd", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e621-49ce-a059", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "span.text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//span[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "90a3-41d3-9e45", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/funeral-expenses-for-elise-koontz", 
+    "version": "0.13.1"
+}
