@@ -1,0 +1,307 @@
+{
+    "extractors": {}, 
+    "id": "4fcc-4624-a974", 
+    "name": "Fundraiser by Freiberger Nicholas Marathon for", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "4702-40c4-a270", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "ff65-4d19-8dad", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "87e7-484c-9a7a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9113-422e-ab6a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1292-422f-acf6", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "8020-41b6-8f00": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8b57-41e0-bd65", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a5b2-46f0-80ce", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "547e-434b-828e": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "3898-4305-bf25", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "56fb-4bc5-ae61", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "b070-4f68-96b8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8456-4f29-a2a1", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7c7d-47ac-8240", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "88ce-4991-93e1": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6458-45ef-be64", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "064b-429b-895f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .co-info > .co-details > .pills-contain > .location-name", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" location-name \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "a3b7-4ed7-9e4e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "22d8-4a54-b60c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "ec46-4e1d-86a0", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".donations-column-contain > .column > .mb"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "41ad-416a-9728": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e2a7-4e5c-8e9c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "ca4a-400c-83df", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".donations-column-contain > .column > .mb", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" donations-column-contain \")]/*[contains(concat(\" \", @class, \" \"), \" column \")]/*[contains(concat(\" \", @class, \" \"), \" mb \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(8)"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "2998-42d3-afdd": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "75d8-49e2-8e44", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3382-4271-9c9f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(8)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[8]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".fs-12-5"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "a1e2-47a1-b695": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e56c-408b-853a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a0e3-4509-babb", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".fs-12-5", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" fs-12-5 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#story > div:nth-child(1) > .show-for-large > .created-date"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "5cc6-4ae4-a470": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2788-45b9-b4d1", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7e8c-4d60-b4ca", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "#story > div:nth-child(1) > .show-for-large > .created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"story\"]/div[1]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(1) > .co-details > strong"
+                    ], 
+                    "container_id": "4702-40c4-a270", 
+                    "data": {
+                        "4115-4c6c-be86": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "dc27-4f5d-832d", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "9645-480f-87ed", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(1) > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "ff65-4d19-8dad", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/marathon-for-refugees", 
+    "version": "0.13.1"
+}

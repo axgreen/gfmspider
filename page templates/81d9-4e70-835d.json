@@ -1,0 +1,345 @@
+{
+    "extractors": {}, 
+    "id": "81d9-4e70-835d", 
+    "name": "Fundraiser by IGEM Gttingen Glyphosate on my pl", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "0682-4ca3-8ace", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "af90-4442-ae21", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "0e7d-435e-b3ed": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "2c25-4c8b-854c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7881-4be7-89a9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "35c2-4417-b672": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9b0e-42d6-857f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4965-444e-bb8b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "9c11-4060-a656": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c0c0-4760-a5bb", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "459d-4a8f-9bc5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "7a90-4a08-b9f1": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c69b-43d0-aca7", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0330-432f-a722", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "c68a-4884-98d8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "bd80-4b66-8850", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "dcb7-4682-8b5f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "5ba5-4f7b-ac58": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "d80b-45e5-a315", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "47c8-4981-8152", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "e637-4194-b809": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ab7e-4eda-8bd4", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "41ac-4643-a077", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "4181-46aa-922d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6482-4e6b-b65c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7e3a-44d0-9065", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "401e-4e4a-8f19": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "57f9-4dc9-9d41", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "bfed-4d46-8b74", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "9a3a-4fa1-b4af": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "724f-4ded-80f8", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a1cd-40d7-84ff", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "d64e-4136-8151": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f717-4d7a-bd2f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5f57-4cc3-823a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "1e97-41d7-a1d2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ebe0-40f0-bb7d", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "887f-46e0-94e8", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "0682-4ca3-8ace", 
+                    "data": {
+                        "af28-4aab-a00a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "350e-4d3b-9ef1", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b17d-48e7-b635", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "af90-4442-ae21", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/glyphosate-on-my-plate", 
+    "version": "0.13.1"
+}

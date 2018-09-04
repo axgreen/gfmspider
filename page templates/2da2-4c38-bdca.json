@@ -1,0 +1,349 @@
+{
+    "extractors": {}, 
+    "id": "2da2-4c38-bdca", 
+    "name": "Fundraiser by shatangela patton Help Aaliyah Ki", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "a40b-4530-a27c", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "945e-491a-bd67", 
+                    "selector": ".pg-campaign", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "83e4-45db-a967": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5f83-4d3f-85d6", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7b18-4ff6-bdab", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".pg-campaign > .main-column > .campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pg-campaign \")]/*[contains(concat(\" \", @class, \" \"), \" main-column \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mt0 > .hide-for-large > .goal > strong"
+                    ], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "9f21-4a30-824c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c841-48e1-8014", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "12da-4fb4-a2f4", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".mt0 > .hide-for-large > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" hide-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mt0 > .hide-for-large > .goal > .smaller"
+                    ], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "3f52-4194-a83b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ffa5-4301-b4a4", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e648-4dfe-b70e", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".mt0 > .hide-for-large > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" hide-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mt0 > .hide-for-large > .campaign-status > span"
+                    ], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "60f4-4d40-a94a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "599e-4b5d-9f06", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "057d-40cb-94ed", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".mt0 > .hide-for-large > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" hide-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "b46e-460c-b5d4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8787-42fc-82a1", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6d57-4ca1-af48", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mt0 > .ugc-connection > .tabs-content > .is-active > div:nth-child(1) > .co-info > .co-details > .js-profile-co"
+                    ], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "186f-4084-84c9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2698-4db1-959a", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "601f-4862-bcbc", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".mt0 > .ugc-connection > .tabs-content > .is-active > div:nth-child(1) > .co-info > .co-details > .js-profile-co", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" ugc-connection \")]/*[contains(concat(\" \", @class, \" \"), \" tabs-content \")]/*[contains(concat(\" \", @class, \" \"), \" is-active \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" js-profile-co \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "d314-4910-8057": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2b19-4be5-b0aa", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c30d-49d3-a15b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mt0 > .ugc-connection > .tabs-content > .is-active > div:nth-child(1) > .show-for-large > .created-date, .mt0 > .co-badge-side-column > .show-for-large > .created-date"
+                    ], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "ab47-4458-b3ff": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "03ee-4626-975f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c707-4123-9662", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".mt0 > .ugc-connection > .tabs-content > .is-active > div:nth-child(1) > .show-for-large > .created-date, .mt0 > .co-badge-side-column > .show-for-large > .created-date", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" ugc-connection \")]/*[contains(concat(\" \", @class, \" \"), \" tabs-content \")]/*[contains(concat(\" \", @class, \" \"), \" is-active \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")] | //*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" co-badge-side-column \")]/*[contains(concat(\" \", @class, \" \"), \" show-for-large \")]/*[contains(concat(\" \", @class, \" \"), \" created-date \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "6865-4d5a-a988": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c942-4c71-bc74", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c34d-4768-a8d9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mt0 > .ugc-connection > .tabs-content > .is-active > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small, .mt0 > .co-badge-side-column > .co-info > .co-details > .pills-contain > .category-link-name > .text-small"
+                    ], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "1cf1-4f14-aed1": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "fede-4417-a870", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e06f-48ae-b7ac", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".mt0 > .ugc-connection > .tabs-content > .is-active > div:nth-child(1) > .co-info > .co-details > .pills-contain > .category-link-name > .text-small, .mt0 > .co-badge-side-column > .co-info > .co-details > .pills-contain > .category-link-name > .text-small", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" ugc-connection \")]/*[contains(concat(\" \", @class, \" \"), \" tabs-content \")]/*[contains(concat(\" \", @class, \" \"), \" is-active \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")] | //*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" co-badge-side-column \")]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/*[contains(concat(\" \", @class, \" \"), \" pills-contain \")]/*[contains(concat(\" \", @class, \" \"), \" category-link-name \")]/*[contains(concat(\" \", @class, \" \"), \" text-small \")]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "254f-46b2-aa22": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "fba8-46e9-a8ae", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0cc5-4dcc-8976", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mt0 > .ugc-connection > .story-updates > li:nth-child(2) > a > .badge"
+                    ], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "50c7-4ef7-8903": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "bb0a-481b-bb32", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "69e6-4f6f-a715", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".mt0 > .ugc-connection > .story-updates > li:nth-child(2) > a > .badge", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" ugc-connection \")]/*[contains(concat(\" \", @class, \" \"), \" story-updates \")]/li[2]/a/*[contains(concat(\" \", @class, \" \"), \" badge \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mt0 > .ugc-connection > .tabs-content > .is-active > .co-story"
+                    ], 
+                    "container_id": "a40b-4530-a27c", 
+                    "data": {
+                        "dfe9-48f8-8d50": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "11a0-4ab0-a3bd", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3ddf-48a4-b8f7", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".mt0 > .ugc-connection > .tabs-content > .is-active > .co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mt0 \")]/*[contains(concat(\" \", @class, \" \"), \" ugc-connection \")]/*[contains(concat(\" \", @class, \" \"), \" tabs-content \")]/*[contains(concat(\" \", @class, \" \"), \" is-active \")]/*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "945e-491a-bd67", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/help-aaliyah-kick-cancers-butt", 
+    "version": "0.13.1"
+}

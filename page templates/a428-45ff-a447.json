@@ -1,0 +1,310 @@
+{
+    "extractors": {}, 
+    "id": "a428-45ff-a447", 
+    "name": "Fundraiser by Celia Incognito Kinder brauchen i", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "a2a1-4fd4-b8f2", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "44af-4081-9897", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "877f-468f-ae7f": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "0a00-4b6d-8a96", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "000f-49ef-92cc", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "ba0f-4366-b025": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5ffd-482e-adf3", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4446-4020-8d76", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "a492-42f6-ab65": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f66b-4f88-9f32", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2521-4735-8556", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "0643-4f53-b4f1": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "94bb-499b-8afc", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "4b3b-46c7-bbc3", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "38f4-49db-9e8a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "090c-4aad-bb97", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "eec1-45dc-ae01", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "6e3e-4f39-9a06": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "040b-42e6-a2b9", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "47e6-41e6-bcee", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "a4b5-4f59-acc9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2ade-40f5-8a3c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "76a7-43f5-ab06", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "ee6b-4958-811e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8a22-4e56-8a02", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "bba6-461d-89ad", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "95ec-4712-a3ef": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "99b2-4876-a0ea", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8a33-47c1-80c2", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "e7e2-43ab-a273": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3ab6-475b-95a2", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "fcf6-464e-81e4", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "95a2-4f11-9e5c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4aa3-4d4d-a02f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b0a1-488c-a86b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "a2a1-4fd4-b8f2", 
+                    "data": {
+                        "785e-4d65-b030": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e7f4-4333-b572", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "3a97-4809-a6cd", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "44af-4081-9897", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/liako-darf-ihre-kinder-sehen", 
+    "version": "0.13.1"
+}

@@ -1,0 +1,299 @@
+{
+    "extractors": {}, 
+    "id": "cc1c-45fc-a97f", 
+    "name": "Fundraiser by Yon Tong Study Tibetan", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "dcec-487c-83ae", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "f79e-4ec9-806f", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "92c8-4b8e-a6ae": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "652f-41d3-8ee5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5e2a-43bf-9c93", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "0dba-45e9-b4a8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b4e2-4186-b967", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "1ece-40e7-a486", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "5230-4316-879d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7476-4e3e-bc65", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e6ad-405d-bb0f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "eb13-4848-8831": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "cd31-4fe9-8bdc", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "873f-416d-bdd0", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "2bcb-4a2a-82d6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8341-44b3-91d0", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "70ae-4eeb-bd16", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "6f5d-4547-9cfc": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b964-42f2-8710", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "22a1-4357-bd88", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "cb8f-441e-9d07": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ccb1-49d2-9f79", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "c0c8-4410-9def", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "77ed-44da-87e5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "df64-49cf-b751", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8ea3-42ee-b4be", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "8bf0-45ba-af16": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0274-4369-83da", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8ef7-4a41-9dbc", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": null, 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "ecef-4313-9563": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e75e-4b61-9b7e", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "795d-4d3e-9a1e", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-info:nth-child(1) > .co-details > strong"
+                    ], 
+                    "container_id": "dcec-487c-83ae", 
+                    "data": {
+                        "a9d8-4130-a57c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "74d4-45c7-a32c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "d8f4-47f0-85fa", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-info:nth-child(1) > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "f79e-4ec9-806f", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/learntibetan", 
+    "version": "0.13.1"
+}

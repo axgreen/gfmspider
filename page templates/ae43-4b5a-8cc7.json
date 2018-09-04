@@ -1,0 +1,282 @@
+{
+    "extractors": {}, 
+    "id": "ae43-4b5a-8cc7", 
+    "name": "Fundraiser for Davina Hartsfield by Alison Disar", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "4844-41cb-a6d7", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "38d5-4403-85d7", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "5edb-4436-b674": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "54a6-45d3-abff", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6ff5-4453-ad47", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".heart-19640040 > .fave-num-short > .roundedNum"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "9cca-4bff-afea": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8b08-4191-9677", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6ee4-4b5d-92ed", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".heart-19640040 > .fave-num-short > .roundedNum", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" heart-19640040 \")]/*[contains(concat(\" \", @class, \" \"), \" fave-num-short \")]/*[contains(concat(\" \", @class, \" \"), \" roundedNum \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "8e7b-49fc-b3fd": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b7e1-4a07-82cc", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "51b4-45f5-9a10", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "375b-455f-a0fb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2c3e-4f58-befa", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "f811-4adc-ad69", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "f1fe-4dc1-b86a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e206-475b-9de5", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "e651-4cc2-b1c8", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "0f7b-41cb-9ff3": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "710a-4c55-9f44", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "784b-436b-9844", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "6d9b-4f05-a313": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "d71a-43d7-8fc9", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "0166-44bd-bc0a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".icon-link:nth-child(3)"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "bc93-451b-90ea": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e62b-4ff4-a95f", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2d5a-41ba-b811", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".icon-link:nth-child(3)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[3][contains(concat(\" \", @class, \" \"), \" icon-link \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "dee8-4a11-b17f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "cbfe-47fd-87fd", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "7d27-4a44-bd32", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".js-co-orbit-container > .is-active > .mb20 > .co-info > .co-details > strong"
+                    ], 
+                    "container_id": "4844-41cb-a6d7", 
+                    "data": {
+                        "9d87-4272-bcb0": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8386-4f69-91f7", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "70f8-44b6-ba24", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".js-co-orbit-container > .is-active > .mb20 > .co-info > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" js-co-orbit-container \")]/*[contains(concat(\" \", @class, \" \"), \" is-active \")]/*[contains(concat(\" \", @class, \" \"), \" mb20 \")]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "38d5-4403-85d7", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/the-hartsfield-medical-fund", 
+    "version": "0.13.1"
+}

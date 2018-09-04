@@ -1,0 +1,332 @@
+{
+    "extractors": {}, 
+    "id": "c468-4a91-be67", 
+    "name": "phanindra", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "ed7d-485f-ab7c", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "c919-4518-8c30", 
+                    "selector": "html", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "link:nth-child(7)"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "076e-4e9d-8410": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "7abd-4726-a252", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "d380-4c1a-9078", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": "link:nth-child(7)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//link[7]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".heart-18625664 > .fave-num-short > .roundedNum"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "510c-4fe2-ae4d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "442b-4d92-b00b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b879-4cfd-a1f5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".heart-18625664 > .fave-num-short > .roundedNum", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" heart-18625664 \")]/*[contains(concat(\" \", @class, \" \"), \" fave-num-short \")]/*[contains(concat(\" \", @class, \" \"), \" roundedNum \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".campaign-title"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "152d-420d-8bd2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "69c1-4c5d-8790", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "8fa2-4400-8ba1", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".campaign-title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" campaign-title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > strong"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "f644-457d-b852": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "d6ae-42fe-9c7e", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "b110-40e6-9f41", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .goal > .smaller"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "23c4-4be3-8f22": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4144-48d1-b21c", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2371-456f-8279", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .goal > .smaller", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" goal \")]/*[contains(concat(\" \", @class, \" \"), \" smaller \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".layer-white:nth-child(5) > .campaign-status > span"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "e007-403a-bed0": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0dd7-4a36-8940", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "a147-43c8-8838", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".layer-white:nth-child(5) > .campaign-status > span", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[5][contains(concat(\" \", @class, \" \"), \" layer-white \")]/*[contains(concat(\" \", @class, \" \"), \" campaign-status \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".static-btn-contain > .is-disabled"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "34e6-4214-9b19": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a451-4923-b711", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "eb6e-49a0-860a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".static-btn-contain > .is-disabled", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" static-btn-contain \")]/*[contains(concat(\" \", @class, \" \"), \" is-disabled \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".share-text > div > .js-share-count-text"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "d855-4f0c-9a6e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8821-4b87-93af", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "bd22-47e5-bb53", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".share-text > div > .js-share-count-text", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" share-text \")]/div/*[contains(concat(\" \", @class, \" \"), \" js-share-count-text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".icon-link:nth-child(3)"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "efac-41af-aa4e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a5ef-40a4-964b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6a00-4dde-b09a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".icon-link:nth-child(3)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[3][contains(concat(\" \", @class, \" \"), \" icon-link \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".badge"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "3ac6-4bff-b05f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "42ae-420d-b3c9", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "5fb9-46b1-a6a1", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".badge", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" badge \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".co-story > p"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "676b-4055-bd45": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f157-4896-83ef", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "2f61-4dbf-aaa0", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".co-story > p", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" co-story \")]/p"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".js-co-orbit-container > .is-active > .mb20 > .co-info > .co-details > strong"
+                    ], 
+                    "container_id": "ed7d-485f-ab7c", 
+                    "data": {
+                        "dd25-4599-9a4b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "da63-4dd6-8b99", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "6c6d-4112-8181", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".js-co-orbit-container > .is-active > .mb20 > .co-info > .co-details > strong", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" js-co-orbit-container \")]/*[contains(concat(\" \", @class, \" \"), \" is-active \")]/*[contains(concat(\" \", @class, \" \"), \" mb20 \")]/*[contains(concat(\" \", @class, \" \"), \" co-info \")]/*[contains(concat(\" \", @class, \" \"), \" co-details \")]/strong"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "c919-4518-8c30", 
+    "spider": "www.gofundme.com_1", 
+    "url": "https://www.gofundme.com/friend-mom-passed", 
+    "version": "0.13.1"
+}
